@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lucas Neves</title>
+<meta name="description" content="Lucas Neves — Software Engineer. TypeScript, Next.js, React, NestJS e Node.js.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">LN</a>
+    <nav class="main-nav">
+      <a href="#trajetoria">Trajetória</a>
+      <a href="#stack">Stack</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="header-controls">
+      <div class="lang-toggle">
+        <span class="lang-current">PT</span>
+        <a href="en/" class="lang-link">EN</a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero wrap">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="eyebrow-dot"></span>Software Engineer</p>
+        <h1>Lucas Neves</h1>
+        <p class="hero-lede">
+          De estagiário a desenvolvedor júnior em cerca de um ano, na Warren Investimentos.
+          <strong>Encontro o processo manual entre times e construo o sistema que o automatiza.</strong>
+        </p>
+        <div class="tag-row">
+          <span class="tag">TypeScript</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">React</span>
+          <span class="tag">NestJS</span>
+          <span class="tag">Node.js</span>
+          <span class="tag tag-accent">Inglês profissional</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:lc.fr.nv@gmail.com">E-mail</a>
+          <a class="btn" href="https://www.linkedin.com/in/lucas-nev/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/lucas-fnvs" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="assets/lucas-neves-resume-en.pdf" download>Baixar CV (EN)</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img class="hero-photo-inner" src="assets/lucas.jpg" alt="Lucas Neves" width="168" height="168">
+      </div>
+    </div>
+  </section>
+
+  <section class="stats wrap reveal">
+    <div class="stat">
+      <span class="stat-num">75%</span>
+      <span class="stat-label">menos requisições ao resolver N+1 no CRM dos assessores</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">minutos → segundos</span>
+      <span class="stat-label">tempo de carregamento da tela de taxas</span>
+    </div>
+  </section>
+
+  <section id="trajetoria" class="section wrap">
+    <p class="section-eyebrow">Projetos &amp; trajetória</p>
+    <h2 class="section-title">Trajetória</h2>
+    <p class="section-sub">Contexto, decisão técnica e resultado de cada entrega, do início até hoje.</p>
+
+    <div class="toolbar reveal">
+      <div class="view-toggle">
+        <button class="view-btn active" data-view="projects" type="button">Projetos</button>
+        <button class="view-btn" data-view="trajetoria" type="button">Trajetória</button>
+      </div>
+    </div>
+
+    <div id="view-trajetoria" hidden>
+      <ul class="timeline-compact">
+        <li class="reveal">
+          <div class="timeline-compact-head">
+            <span class="timeline-date">Ago/2025 – Presente</span>
+            <span class="timeline-role">Desenvolvedor de Software Júnior</span>
+          </div>
+          <p>Reconstruí o sistema de notícias in-app. Em outubro de 2025 transitei para o time de Produto: passei pelo Squad Consolidação (relatórios com ReportsJS e Vue.js) e hoje estou no Squad Flow, onde resolvi a performance do CRM dos assessores e venho construindo o Otto, agente de IA para o financeiro.</p>
+        </li>
+        <li class="reveal">
+          <div class="timeline-compact-head">
+            <span class="timeline-date">Fev/2025 – Ago/2025</span>
+            <span class="timeline-role">Assistente</span>
+          </div>
+          <p>Passei a assumir arquiteturas completas, do início ao fim: Programa Seeker, API de WhatsApp e o simulador de investimentos.</p>
+        </li>
+        <li class="reveal">
+          <div class="timeline-compact-head">
+            <span class="timeline-date">Jul/2024 – Fev/2025</span>
+            <span class="timeline-role">Estagiário de Tecnologia</span>
+          </div>
+          <p>Ponte técnica entre engenharia e o time de Marketing. Construí o Zenith e, em seguida, o ZenithAI.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="view-projects">
+      <div class="case-list">
+        <article class="case">
+          <div class="case-index">01</div>
+          <div class="case-content">
+            <h3>Performance no CRM dos Assessores (Squad Flow)</h3>
+            <dl class="case-details">
+              <div><dt>Contexto</dt><dd>A tela de autoatendimento de taxas fazia uma rota por cliente — um clássico N+1 — levando o carregamento a minutos.</dd></div>
+              <div><dt>O que construí</dt><dd>Reescrevi a tela em Next.js e .NET, transformando as rotas por cliente em rotas em lote, e implementei carregamento via streaming.</dd></div>
+              <div><dt>Resultado</dt><dd>-75% de requisições e tempo de carregamento caindo de minutos para segundos. Apliquei a mesma arquitetura na lista de clientes e assumi a migração de fluxos legados para Next.js, como o de cotação indicativa.</dd></div>
+            </dl>
+            <div class="tag-row small"><span class="tag">Next.js</span><span class="tag">.NET</span></div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-index">02</div>
+          <div class="case-content">
+            <h3>Programa Seeker</h3>
+            <dl class="case-details">
+              <div><dt>Contexto</dt><dd>O programa de indicação de clientes do Marketing dependia de geração manual de link, contrato e rastreio de conversão.</dd></div>
+              <div><dt>O que construí</dt><dd>Sistema em que a inscrição já gera automaticamente o link e o contrato, via integração entre HubSpot e ClickSign; ecossistema de dados (captura de leads, status de assinatura) arquitetado no Firestore.</dd></div>
+              <div><dt>Resultado</dt><dd>O time de dados passou a cruzar essas informações com a base de clientes para mapear conversões e viabilizar remuneração.</dd></div>
+            </dl>
+            <div class="tag-row small"><span class="tag">Firestore</span><span class="tag">HubSpot API</span><span class="tag">ClickSign API</span></div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-index">03</div>
+          <div class="case-content">
+            <h3>Zenith</h3>
+            <dl class="case-details">
+              <div><dt>Contexto</dt><dd>Construía landing pages rápidas e otimizadas para SEO, muitas vezes desenhadas e publicadas no mesmo dia para aproveitar o timing de oportunidades do mercado financeiro. O fluxo tradicional entre design e código tornava a criação de cada página lenta demais para essa velocidade.</dd></div>
+              <div><dt>O que construí</dt><dd>Uma biblioteca com cerca de 30 seções moduláveis, construída nativamente no editor drag-and-drop do HubSpot.</dd></div>
+              <div><dt>Resultado</dt><dd>Designers passaram a publicar páginas de forma totalmente autônoma, sem depender de engenharia.</dd></div>
+            </dl>
+            <div class="tag-row small"><span class="tag">React</span><span class="tag">Next.js</span><span class="tag">HubSpot</span></div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-index">04</div>
+          <div class="case-content">
+            <h3>Otto, agente de IA para o financeiro</h3>
+            <dl class="case-details">
+              <div><dt>Contexto</dt><dd>O time financeiro recebia faturas por e-mail e registrava cada uma manualmente no ERP NetSuite.</dd></div>
+              <div><dt>O que construí</dt><dd>Um agente de IA que lê as faturas diretamente da caixa de entrada do financeiro e as registra automaticamente no NetSuite.</dd></div>
+              <div><dt>Resultado</dt><dd>Redução do trabalho manual da equipe de finanças na rotina de lançamento de faturas.</dd></div>
+            </dl>
+            <div class="tag-row small"><span class="tag">IA</span><span class="tag">NetSuite</span></div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-index">05</div>
+          <div class="case-content">
+            <h3>API de WhatsApp</h3>
+            <dl class="case-details">
+              <div><dt>Contexto</dt><dd>A empresa não tinha um canal de comunicação direto com clientes via WhatsApp.</dd></div>
+              <div><dt>O que construí</dt><dd>API proprietária em NestJS: aquisição e configuração técnica do número, integração com a API oficial da Meta e o HubSpot.</dd></div>
+              <div><dt>Resultado</dt><dd>Entrega de um canal de comunicação totalmente novo para a equipe.</dd></div>
+            </dl>
+            <div class="tag-row small"><span class="tag">NestJS</span><span class="tag">Meta API</span></div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-index">06</div>
+          <div class="case-content">
+            <h3>Reconstrução do Sistema de Notícias In-App</h3>
+            <dl class="case-details">
+              <div><dt>Contexto</dt><dd>O sistema de notícias dependia de deploys de engenharia e tinha falhas crônicas de agendamento.</dd></div>
+              <div><dt>O que construí</dt><dd>Reconstrução completa transferindo o controle de conteúdo 100% para o HubSpot.</dd></div>
+              <div><dt>Resultado</dt><dd>Marketing passou a publicar e agendar notícias sem depender de engenharia; falhas crônicas de agendamento eliminadas.</dd></div>
+            </dl>
+            <div class="tag-row small"><span class="tag">HubSpot</span><span class="tag">Next.js</span></div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-index">07</div>
+          <div class="case-content">
+            <h3>ZenithAI</h3>
+            <dl class="case-details">
+              <div><dt>Contexto</dt><dd>Com o Zenith em produção, testei levar a automação além, usando linguagem natural.</dd></div>
+              <div><dt>O que construí</dt><dd>Chat conectado à API da OpenAI para interpretar comandos e injetar seções do Zenith na landing page.</dd></div>
+              <div><dt>Resultado</dt><dd>Validação de um fluxo experimental de montagem de página por descrição.</dd></div>
+            </dl>
+            <div class="tag-row small"><span class="tag">OpenAI API</span><span class="tag">TypeScript</span></div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-index">08</div>
+          <div class="case-content">
+            <h3>Simulador de Investimentos</h3>
+            <dl class="case-details">
+              <div><dt>Contexto</dt><dd>O Marketing precisava de uma ferramenta de captação de leads com cenários de investimento concretos.</dd></div>
+              <div><dt>O que construí</dt><dd>Simulador em Next.js aplicando o modelo matemático estocástico de movimento browniano geométrico para projetar a evolução dos ativos.</dd></div>
+              <div><dt>Resultado</dt><dd>Ferramenta usada na captação de leads do Marketing.</dd></div>
+            </dl>
+            <div class="tag-row small"><span class="tag">Next.js</span><span class="tag">Modelagem estocástica</span></div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="minor-notes">
+        <p class="minor-notes-label">Outras contribuições</p>
+        <div class="minor-note">
+          <h4>Squad Consolidação</h4>
+          <p>Primeira missão oficial no time de Produto: configurei o software white-label de consolidação, entreguei dois relatórios complexos com ReportsJS e Vue.js, e atuei em melhorias diretas na plataforma de investimentos.</p>
+          <div class="tag-row small"><span class="tag">ReportsJS</span><span class="tag">Vue.js</span></div>
+        </div>
+        <div class="minor-note">
+          <h4>Ferramenta de registro de reuniões</h4>
+          <p>Ajudei a estruturar e lançar uma ferramenta interna de registro de reuniões ao entrar no Squad Flow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="section wrap reveal">
+    <p class="section-eyebrow">Stack</p>
+    <h2 class="section-title">Stack &amp; formação</h2>
+    <div class="stack-grid">
+      <div class="stack-col">
+        <h3>Stack principal</h3>
+        <ul class="plain-list">
+          <li>TypeScript</li>
+          <li>Next.js &amp; React</li>
+          <li>NestJS &amp; Node.js</li>
+          <li>Vue.js</li>
+          <li>.NET</li>
+          <li>Firestore</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h3>Integrações &amp; ferramentas</h3>
+        <ul class="plain-list">
+          <li>OpenAI API</li>
+          <li>Meta API (WhatsApp Business)</li>
+          <li>HubSpot API</li>
+          <li>ClickSign API</li>
+          <li>ReportsJS</li>
+          <li>NetSuite</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h3>Formação &amp; certificações</h3>
+        <ul class="plain-list">
+          <li>Análise e Desenvolvimento de Sistemas — Facens</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section wrap contact-section reveal">
+    <p class="section-eyebrow">Contato</p>
+    <h2 class="section-title">Vamos conversar</h2>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:lc.fr.nv@gmail.com">E-mail</a>
+      <a class="btn" href="https://www.linkedin.com/in/lucas-nev/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/lucas-fnvs" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="assets/lucas-neves-resume-en.pdf" download>Baixar CV (EN)</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Lucas Neves © 2026</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
